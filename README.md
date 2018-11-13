@@ -10,13 +10,14 @@ This is a project contains examples for sending e-mails with Spring Boot.
 
 ## Packaging application - JAR
 
-**mvn clean package**
-<br><br><br><br>
+1. Navigate to project directory 
+2. Type command: **mvn clean package -DskipTests**
+<br><br>
 
 **NOTE:** If you are using G-mail as your mail provided for sending e-mails make sure you
 allow less secure apps in G-mail support.
 
-<br><br><br>
+<br><br>
 
 ## Author
 
