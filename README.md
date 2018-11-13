@@ -1,6 +1,6 @@
 # Spring Boot Starter Email
 
-This is a project contains examples for sending e-mails with Spring Boot.
+This is a project contains examples for sending e-mails with Spring Boot and Java Mail Sender.
 
 ## Running the project
 
@@ -8,16 +8,18 @@ This is a project contains examples for sending e-mails with Spring Boot.
 2. Type command **mvn clean install**
 3. Type command **mvn spring-boot:run**
 
-## Packaging application - JAR
+## Packaging application
 
 1. Navigate to project directory 
-2. Type command: **mvn clean package -DskipTests**
-<br><br>
+2. Type command: ```mvn clean package -DskipTests``` 
+3. You can find your <app>.jar file in ```target``` folder.
+
+## Disabling authentication
+If you want to disable authentication (or your server does not require authentication), in ```EmailConfiguration.java``` set **smtp.auth** property to **false**.
+<br>
 
 **NOTE:** If you are using G-mail as your mail provided for sending e-mails make sure you
 allow less secure apps in G-mail support.
-
-<br><br>
 
 ## Author
 
